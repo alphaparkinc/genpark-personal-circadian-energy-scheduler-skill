@@ -1,0 +1,38 @@
+{
+  "name": "genpark-personal-circadian-energy-scheduler-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Biological chronotype and circadian rhythm personal scheduler maximizing deep cognitive analytical output.",
+  "homepage": "https://genpark.ai/mcp",
+  "author": "alphaparkinc",
+  "category": "personal-productivity",
+  "tags": [
+    "personal-agent",
+    "circadian-scheduler",
+    "chronotype",
+    "energy-management",
+    "productivity-rhythms"
+  ],
+  "inputs": {
+    "user_name": {
+      "type": "string",
+      "default": "Elena Rostova"
+    },
+    "chronotype": {
+      "type": "string",
+      "default": "third_bird_bear"
+    }
+  },
+  "outputs": {
+    "schedule_id": {
+      "type": "string"
+    },
+    "biological_prime_time": {
+      "type": "string"
+    },
+    "circadian_sync_score": {
+      "type": "number"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
